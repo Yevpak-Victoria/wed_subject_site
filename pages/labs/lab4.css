@@ -1,0 +1,163 @@
+html {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 15vh repeat(4, 1fr);
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid rgb(109, 109, 109);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.item_1 {
+    grid-column: 1/5;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#rightNavBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+    margin-top: 20px;
+}
+
+del {
+    width: 300px;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.horisontaUnderlineOne {
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid #616161;
+    /* Рисочка знизу */
+    outline: none;
+    /* Прибираємо стандартне підсвічування */
+    padding: 5px 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.horisontaUnderlineTwo {
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #616161;
+    /* Рисочка знизу */
+    outline: none;
+    /* Прибираємо стандартне підсвічування */
+    padding: 5px 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.item_2 {
+    grid-row: 2/6;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.item_3,
+.item_4,
+.item_5,
+.item_6,
+.item_7 {
+    grid-row-end: span 2;
+}
+
+.item_3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#ToDoText {
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 20%;
+}
+
+h3 {
+    align-self: flex-start;
+    margin-top: -5px;
+    font-weight: 400;
+    justify-self: center;
+    position: absolute;
+}
+
+.checkbox {
+    margin-top: -72%;
+    margin-left: 72%;
+    justify-self: self-end;
+    position: initial;
+    margin-left: 70%;
+    margin-left: auto;
+}
+
+.checkboxLast {
+    margin-top: -32%;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 2px;
+    color: grey;
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.divForCheckbox {
+    margin-top: -10px;
+}
+
+.inputField {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #616161;
+    /* Рисочка знизу */
+    outline: none;
+    /* Прибираємо стандартне підсвічування */
+    padding: 5px 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.bigInputField {
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+    height: 70%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    font-size: 16px;
+    background-color: transparent;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}

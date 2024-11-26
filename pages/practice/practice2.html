@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice2.css">
+</head>
+
+<body>
+    <div class="registration-form">
+        <h1>Registration Form</h1>
+        <form action="https://webhook.site">
+
+            <label for="inputName">User Name <sup style="color: red;">*</sup></label> <br>
+            <input type="text" name="inputName" id="inputName" required>
+            <br><br>
+            <label for="inputSurname">User Surame <sup style="color: red;">*</sup></label><br>
+            <input type="text" name="inputSurame" id="inputSurname" required>
+            <br><br>
+            <label for="inputEmail">Email <sup style="color: red;">*</sup></label><br>
+            <input type="email" name="inputEmail" id="inputEmail" required>
+            <br><br>
+
+            <label for="pwd">Pssword <sup style="color: red;">*</sup></label><br>
+            <input type="password" name="pwd" id="inputPwd" required>
+            <br><br>
+            <label for="rpwd">Repeat Pssword <sup style="color: red;">*</sup></label><br>
+            <input type="password" name="rpwd" id="rpwd" required>
+            <br><br>
+
+            <div class="downPart">
+                <select name="gender" id="genderSelect">
+                    <option value="underfind">underfind</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+
+                <button type="submit"><b>Send</b></button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

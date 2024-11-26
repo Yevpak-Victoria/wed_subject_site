@@ -1,0 +1,165 @@
+html{
+        font-family: "Roboto", sans-serif;
+            font-style: normal;
+}
+
+#leftPart{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+}
+
+#rightPart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+body{
+    display: flex;
+}
+
+#searhField{
+    width: 80vh;
+    height: 6vh;
+    border-radius: 30px;
+    align-self: center;
+    border: 1px lightgray solid;
+    padding: 10px;
+
+}
+
+#sectorWithRecomendationButton{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.recomendationButtonsOnMainPage{
+    border-radius: 7px;
+    border: 1px #E5E5E5 solid;
+    padding: 6px 15px;
+    background-color: #E5E5E5;
+    font-weight:600;
+}
+
+.activeButton, .recomendationButtonsOnMainPage:hover{
+    background-color: #030303;
+    color: #E5E5E5;
+}
+
+.leftMenuBlock{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftMenuButton{
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-start;
+    font-weight: 400;
+}
+
+.leftMenuButton:hover{
+    background-color: #F2F2F2;
+}
+
+.activeLeftButton{
+    background-color: #F2F2F2;
+}
+
+.bald{
+    font-weight: 600;
+}
+
+.title{
+    text-decoration:none;
+    margin-left: 10px;
+}
+
+.line{
+    width: 100%;
+    color: #f0f0f0;
+}
+
+.videosBlock {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.oneVideoBock{
+    width: 300px;
+    height: 300px;
+}
+
+.youtubeCover{
+    width: 300px;
+    height: 170px;
+    border-radius: 15px;
+}
+
+.channelCovering{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.videoDescription{
+    display: flex;
+}
+
+.textPartOfDescription{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+p{
+    font-size: 12px;
+    margin-top: -10px;
+    color: #a0a0a0;
+}
+
+.navPartOnTop{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#profilePartImg{
+    margin-left: 300px;
+    align-self: center;
+}
+
+
+
+
+
+
+

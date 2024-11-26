@@ -1,0 +1,75 @@
+:root{
+    --main-bg-color: #405D72;
+    --register-form-bg-color: #758694;
+    --input-bg: #FFF8F3;
+    --button-bg: #28475e;
+    --font-color: #FFF8F3;
+}
+/* #FAF6E3 #D8DBBD #B59F78 #2A3663 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--font-color);
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 60vh;
+    background-color: var(--register-form-bg-color);
+    border-radius: 50px;
+    box-shadow: 12px 12px 2px 1px var(--button-bg);
+}
+
+input {
+    width: 40vh;
+    height: 5vh;
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-bg);
+    border-radius: 10px;
+}
+
+.downPart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+select,
+button {
+    padding: 5px;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--button-bg);
+    border-style: outset;
+    border: 1px solid var(--button-bg);
+    cursor: pointer;
+    color: var(--font-color);
+}
+
+#genderSelect{
+    border: 1px solid var(--font-color);
+    background-color: var(--font-color);
+}
+
+option{
+    border-radius: 10px;
+}
+
+form sup{
+    color: white;
+}
+
