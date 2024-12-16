@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Особистий вебсайт Євпак Вікторії</title>
+    <title> роботи - Особистий вебсайт Євпак Вікторії</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Заголовок -->
-    <header>
-        <h2>Особистий вебсайт Євпак Вікторії</h2>
-    </header>
-    
-    <!-- Меню навігації -->
     <nav>
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="pages/about.html">Про мене</a></li>
-            <li><a href="pages/practical.html">Практичні роботи</a></li>
-            <li><a href="pages/labs.html">Лабораторні заняття</a></li>
+        <ul class="navGrid">
+            <li class="separateLeft navText"><a href="index.html"><b class="hoverText activeTextColor">Головна</b></a></li>
+            <li class="separateRight navText"><a href="pages/about.html"><b class="hoverText">Про мене</b></a></li>
+            <li class="navText"><a href="pages/practical.html"><b class="hoverText">Практичні роботи</b></a></li>
+            <li class="navText"><a href="pages/labs.html"><b class="hoverText">Лабораторні заняття</b></a></li>
         </ul>
     </nav>
+
+    <div class="footerPosition">
+        <main class="mainOnMainPage">
+            <section id="indexPageSection">
+                <div>
+                    <h1>Привіт, мене звати Вікторія <br>
+                        Я студент-програміст, <br>
+                        а це мій сайт :)
+                    </h1>
+                    <p id="infoAboutMe">Цей сайт створений для демонстрації моїх навчальних досягнень та проєктів. 
+                        Тут можна зайти всі мої роботи з дисципліни WEB-розробка. 
+                        А також завантажити моє резюме та познайомитися зі мною поближче)
+                    </p>
+                </div>
+                <img src="img/my_photo.png" alt="my_photo" id="my_photo">
+            </section>
+            <button class="redButton">Завантажити моє резюме</button>
+        </main>
+
+        <div class="animation--container">
+            <a href="https://pokemondb.net/pokedex/zubat"><img src="https://img.pokemondb.net/sprites/black-white/anim/normal/zubat-f.gif" alt="Zubat" class="animation--zubat animation--zubat--first"></a>   
+            <a href="https://pokemondb.net/pokedex/zubat"><img src="https://img.pokemondb.net/sprites/black-white/anim/back-normal/zubat-f.gif" alt="Zubat" class="animation--zubat animation--zubat--second"></a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Євпак Вікторія. <br>
+                Studying during 2023-2027<br>
+                <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+        
+                <a href="#" class="footerLink">GitHub</a>
+            </p>
+        </footer>
+    </div>
     
-    <!-- Основний контент сторінки -->
-    <main>
-        <!-- Вміст для кожної сторінки буде відрізнятись -->
-        <section>
-            <h2>Ласкаво просимо на мою особисту сторінку!</h2>
-            <p>Цей сайт створений для демонстрації моїх навчальних досягнень та проєктів.</p>
-        </section>
-    </main>
-    
-    <!-- Нижній колонтитул -->
-    <footer>
-        <p>&copy; 2024 Євпак Вікторія. <br>
-            Studying during 2023-2027<br>
-            <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
-            
-            <a href="#" class="footerLink">GitHub</a>
-        </p> 
-    </footer>
 </body>
+
+
+
 </html>
