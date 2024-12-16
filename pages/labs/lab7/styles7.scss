@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/christmas-gifts-socks-pattern_23-2147527676.jpg);
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Block: Postcard */
+.postcard {
+    background-color: #B2384D; /* Deep blue for card */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Element: Header */
+.postcard__header {
+    padding: 20px;
+    background-color: #982D3B; /* Bright yellow for header */
+    color: #ffffff; /* Dark blue text */
+}
+
+.postcard__title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.postcard__subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Element: Content */
+.postcard__content {
+    padding: 20px;
+}
+
+.postcard__image-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.postcard__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.postcard__message {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Element: Footer */
+.postcard__footer {
+    padding: 20px;
+    background-color: #324661;
+    color: #ffffff;
+}
+
+.postcard__decorations {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.postcard__decoration {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.postcard__decoration--snowflake {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/019/922/857/small/illustration-of-3d-snowflake-png.png);
+}
+
+.postcard__decoration--star {
+    background-image: url(https://www.pngplay.com/wp-content/uploads/8/Gold-Vector-Star-Download-Free-PNG.png);
+}
+
+.postcard__decoration--tree {
+    background-image: url(https://pngimg.com/d/christmas_tree_PNG12.png);
+}
+
+.postcard__signature {
+    font-style: italic;
+    font-size: 1rem;
+}
