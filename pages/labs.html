@@ -6,48 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторні роботи - Особистий вебсайт Євпак Вікторії</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Заголовок -->
-    <header>
-        <h2>Особистий вебсайт Євпак Вікторії</h2>
-    </header>
-
-    <!-- Меню навігації -->
     <nav>
-        <ul>
-            <li><a href="../index.html">Головна</a></li>
-            <li><a href="about.html">Про мене</a></li>
-            <li><a href="practical.html">Практичні роботи</a></li>
-            <li><a href="labs.html">Лабораторні заняття</a></li>
+        <ul class="navGrid">
+            <li class="separateLeft navText"><a href="../index.html"><b class="hoverText">Головна</b></a></li>
+            <li class="separateRight navText"><a href="about.html"><b class="hoverText">Про мене</b></a></li>
+            <li class="navText"><a href="practical.html"><b class="hoverText">Практичні роботи</b></a></li>
+            <li class="navText"><a href="labs.html"><b class="hoverText activeTextColor">Лабораторні заняття</b></a></li>
         </ul>
     </nav>
 
-    <!-- Основний контент сторінки -->
-    <main>
-        <section>
-            <h2>Лабораторна роботи</h2>
-            <ul>
-                <li><a href="https://yevpak-victoria.github.io/lab1/" class="linkOnWork done">Лабораторна робота 1: Основи HTML</a></li>
-                <li><a href="labs/lab2.html" class="linkOnWork done">Лабораторна робота 2: Робота зі стилями</a></li>
-                <li><a href="labs/lab3.html" class="linkOnWork done">Лабораторна робота 3: Відтворення головної сторінки YouTube</a></li>
-                <li><a href="labs/lab4.html" class="linkOnWork done">Лабораторна робота 4: Тема роботи та короткий опис</a></li>
-                <li><a href="#" class="linkOnWork">Лабораторна робота 5: Тема роботи та короткий опис</a></li>
-                <!-- Додайте інші практичні роботи за потребою -->
-            </ul>
-        </section>
-    </main>
+    <div class="footerPosition">
+        <main>
+            <section class="worksSection">
+                <h2>Лабораторні роботи</h2>
+                <div class="listOfWorks">
+                    <div class="workBlock">
+                        <a href="https://yevpak-victoria.github.io/lab1/" class="linkOnWork"><img src="img/lab1.jpg" alt="" class="picterOfWork"></a>
+                        <a href="https://yevpak-victoria.github.io/lab1/" class="linkOnWork  ">Лабораторна робота 1: Основи HTML</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="labs/lab2.html" class="linkOnWork"><img src="img/lab2.jpg" alt="" class="picterOfWork"></a>
+                        <a href="labs/lab2.html" class="linkOnWork ">Лабораторна робота 2: Робота зі стилями</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="labs/lab3.html" class="linkOnWork"><img src="img/practice3_lab3.jpg" alt="" class="picterOfWork"></a>
+                        <a href="labs/lab3.html" class="linkOnWork ">Лабораторна робота 3: Відтворення головної сторінки YouTube</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="labs/lab4.html" class="linkOnWork"><img src="img/lab4.jpg" alt="" class="picterOfWork"></a>
+                        <a href="labs/lab4.html" class="linkOnWork ">Лабораторна робота 4: Тема роботи та короткий опис</a>
+                    </div>
+                        
+                    <hr>
+                    <div class="workBlock">
+                        <a href="../index.html" class="linkOnWork"><img src="img/lab5.jpg" alt="" class="picterOfWork"></a>
+                        <a href="../index.html" class="linkOnWork">Лабораторна робота 5: Допрацювати головну сторінкусайту відповідно до шаблону</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="../index.html" class="linkOnWork"><img src="img/lab6.jpg" alt="" class="picterOfWork"></a>
+                        <a href="#" class="linkOnWork">Лабораторна робота 6: Створення анімації на сайті</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="labs/lab7/lab7.html" class="linkOnWork"><img src="img/lab7.jpg" alt="" class="picterOfWork"></a>
+                        <a href="labs/lab7/lab7.html" class="linkOnWork">Лабораторна робота 7: Розробити довільний сайт листівку на новорічну тематику.</a>
+                    </div>
+                    
 
-    <!-- Нижній колонтитул -->
-    <footer>
-        <p>&copy; 2024 Євпак Вікторія. <br>
-            Studying during 2023-2027<br>
-            <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Євпак Вікторія. <br>
+                Studying during 2023-2027<br>
+                <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+        
+                <a href="#" class="footerLink">GitHub</a>
+            </p>
+        </footer>
+    </div>
     
-            <a href="#" class="footerLink">GitHub</a>
-        </p>
-    </footer>
 </body>
 
 </html>
