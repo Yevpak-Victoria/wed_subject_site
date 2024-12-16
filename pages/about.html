@@ -6,43 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Про мене - Особистий вебсайт Євпак Вікторії</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Заголовок -->
-    <header>
-        <h2>Особистий вебсайт Євпак Вікторії</h2>
-    </header>
-
-    <!-- Меню навігації -->
     <nav>
-        <ul>
-            <li><a href="../index.html">Головна</a></li>
-            <li><a href="about.html">Про мене</a></li>
-            <li><a href="practical.html">Практичні роботи</a></li>
-            <li><a href="labs.html">Лабораторні заняття</a></li>
+        <ul class="navGrid">
+            <li class="separateLeft navText"><a href="../index.html"><b class="hoverText">Головна</b></a></li>
+            <li class="separateRight navText"><a href="about.html"><b class="hoverText activeTextColor">Про мене</b></a></li>
+            <li class="navText"><a href="practical.html"><b class="hoverText">Практичні роботи</b></a></li>
+            <li class="navText"><a href="labs.html"><b class="hoverText">Лабораторні заняття</b></a></li>
         </ul>
     </nav>
 
-    <!-- Основний контент сторінки -->
-    <main>
-        <section>
-            <h2>Про мене</h2>
-            <p>Привіт! Мене звати Вікторія, і я студент. Цей сайт створений для відображення моїх навчальних досягнень та
-                проектів.</p>
-            <p>Мої захоплення включають програмування, розробку вебсайтів і вивчення нових технологій.</p>
-        </section>
-    </main>
+    <div class="footerPosition">
+        <main>
+            <section class="mainOnMainPage">
+                <h2>Про мене</h2>
+                <p>Привіт! Мене звати Вікторія, і я студентка 2 курсу спеціальності Інженерія програмного забезпечення одного з Київських вишів. Цей сайт створений для відображення моїх навчальних досягнень та
+                проектів, а саме з предмету WEB-розробка, лабораторних та практичних робіт.</p>
+                <p>Мої захоплення включають програмування, розробку вебсайтів, вивчення нових технологій та дизайн. Я люблю іноземну мову та малювати</p>
+                <p>Наразі я працюю не за спеціальністю, а менеджером в телеком компанії, проте я сижу поруч з відділом розробки тож щодня бучу спеціалістів в роботі і сподівася теж отримати можливість перейти у їх відділ</p>
+            </section>
+        </main>
 
-    <!-- Нижній колонтитул -->
-    <footer>
-        <p>&copy; 2024 Євпак Вікторія. <br>
-            Studying during 2023-2027<br>
-            <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+        <footer>
+            <p>&copy; 2024 Євпак Вікторія. <br>
+                Studying during 2023-2027<br>
+                <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+        
+                <a href="#" class="footerLink">GitHub</a>
+            </p>
+        </footer>
+    </div>
     
-            <a href="#" class="footerLink">GitHub</a>
-        </p>
-    </footer>
 </body>
 
 </html>
