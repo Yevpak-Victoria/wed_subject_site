@@ -6,48 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Практичні роботи - Особистий вебсайт Євпак Вікторії</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Заголовок -->
-    <header>
-        <h2>Особистий вебсайт Євпак Вікторії</h2>
-    </header>
-
-    <!-- Меню навігації -->
     <nav>
-        <ul>
-            <li><a href="../index.html">Головна</a></li>
-            <li><a href="about.html">Про мене</a></li>
-            <li><a href="practical.html">Практичні роботи</a></li>
-            <li><a href="labs.html">Лабораторні заняття</a></li>
+        <ul class="navGrid">
+            <li class="separateLeft navText"><a href="../index.html"><b class="hoverText">Головна</b></a></li>
+            <li class="separateRight navText"><a href="about.html"><b class="hoverText">Про мене</b></a></li>
+            <li class="navText"><a href="practical.html"><b class="hoverText activeTextColor">Практичні роботи</b></a></li>
+            <li class="navText"><a href="labs.html"><b class="hoverText">Лабораторні заняття</b></a></li>
         </ul>
     </nav>
 
-    <!-- Основний контент сторінки -->
-    <main>
-        <section>
-            <h2>Практичні роботи</h2>
-            <ul>
-                <li><a href="practice/practice1.html" class="linkOnWork done">Практична робота 1: Відтворення сторінки Розкладу занять на місяць</a></li>
-                <li><a href="practice/practice2.html" class="linkOnWork done">Практична робота 2: Додання CSS до реєстраційної форми</a></li>
-                <li><a href="labs/lab3.html" class="linkOnWork done">Практична робота 3: Відтворення головної сторінки YouTube</a></li>
-                <li><a href="practice/practice4.html" class="linkOnWork done">Практична робота 4: Тема роботи та короткий опис</a></li>
-                <li><a href="#" class="linkOnWork">Практична робота 5: Тема роботи та короткий опис</a></li>
-                <!-- Додайте інші практичні роботи за потребою -->
-            </ul>
-        </section>
-    </main>
+    <div class="footerPosition">
+        <main>
+            <section class="worksSection">
+                <h2>Практичні роботи</h2>
+                <div class="listOfWorks">
+                    <div class="workBlock">
+                        <a href="practice/practice1.html" class="linkOnWork"><img src="img/practice1.jpg" alt="" class="picterOfWork"></a>
+                        <a href="practice/practice1.html" class="linkOnWork  ">Практична робота 1: Відтворення сторінки Розкладу занять на місяць</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="practice/practice2.html" class="linkOnWork"><img src="img/practice2.jpg" alt="" class="picterOfWork"></a>
+                        <a href="practice/practice2.html" class="linkOnWork ">Практична робота 2: Додання CSS до реєстраційної форми</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="practice/practice3.html" class="linkOnWork"><img src="img/practice3_lab3.jpg" alt="" class="picterOfWork"></a>
+                        <a href="labs/lab3.html" class="linkOnWork ">Практична робота 3: Відтворення головної сторінки YouTube</a>
+                    </div>
+                    <hr>
+                    <div class="workBlock">
+                        <a href="practice/practice4.html" class="linkOnWork"><img src="img/practice4.jpg" alt="" class="picterOfWork"></a>
+                        <a href="practice/practice4.html" class="linkOnWork ">Практична робота 4: Тема роботи та короткий опис</a>
+                    </div>
+                        
 
-    <!-- Нижній колонтитул -->
-    <footer>
-        <p>&copy; 2024 Євпак Вікторія. <br>
-            Studying during 2023-2027<br>
-            <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Євпак Вікторія. <br>
+                Studying during 2023-2027<br>
+                <a href="mailto:victoriayevpak@gmail.com" class="footerLink">Gmail</a>
+        
+                <a href="#" class="footerLink">GitHub</a>
+            </p>
+        </footer>
+    </div>
     
-            <a href="#" class="footerLink">GitHub</a>
-        </p>
-    </footer>
 </body>
 
 </html>
